@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend{margin:0; padding:0;}
+ul,li,ol{list-style:none;}
+img,fieldset{border:0; }
+img{display:block;}
+a{text-decoration:none; color:#333;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+body{font-size:12px; font-family:"微软雅黑";}
+input,a{outline:none;}
+.fl{float:left;}
+.fr{float:right;}
+html{width:100%;height:100%;}
+body{width:100%;height:100%;background:#f8f3f7 url(../images/xia.jpg) no-repeat center 1.4rem/0.38rem 1.14rem;}
+
+p{width:100%;
+	font-size:0.36rem;
+	color:#e6356b;
+	text-align: center;
+	position: relative;
+	z-index: -99;
+	height:3.92rem;
+	line-height:7.8rem;
+}
+a{display: block;
+	width:2.87rem;
+	height:0.94rem;
+	font-size:0.37rem;
+	color:#fff;
+	background:linear-gradient(#f3608c,#e23167);
+	text-align: center;
+	line-height:0.94rem;
+	margin:0 auto;
+	margin-top:2.88rem;
+	position:relative;
+	z-index: 99;
+}
+img{width:1.43rem;
+	height:0.18rem;
+	margin:0.8rem auto 0;
+	position:relative;
+	z-index: -99;
+}
+.dh{width:100%;
+	height:100%;
+	-webkit-animation:hydh 8s;
+}
+@-webkit-keyframes hydh{25% {background:url(../images/dh1.jpg) no-repeat center/cover;}
+				50% {background:url(../images/dh2.jpg) no-repeat center/cover;}
+				75% {background:url(../images/dh3.jpg) no-repeat center/cover;}
+				100% {background:url(../images/dh4.jpg) no-repeat center/cover;}
+}

@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend{margin:0; padding:0;}
+ul,li,ol{list-style:none;}
+img,fieldset{border:0; }
+img{display:block;}
+a{text-decoration:none; color:#333;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+body{font-size:12px; font-family:"微软雅黑";}
+input,a{outline:none;}
+.fl{float:left;}
+.fr{float:right;}
+html{width:100%;height:100%;}
+body{padding:0.86rem 0 0.98rem;width:100%;height:100%;background:#f7f7f7;}
+
+
+header{height:0.86rem;
+		width:100%;
+		background:#e4366b;
+		border-top:1px solid #636363;
+		border-bottom:1px solid #282828;
+		position:fixed;top:0;
+}
+header p{font-size:0.41rem;
+			color:#fff;
+			width:100%;
+			height:0.86rem;
+			line-height:0.86rem;
+			text-align: center;
+}
+header span{font-size:0.3rem;}
+header a:nth-of-type(1){display:block;
+			width:0.54rem;
+			height:0.36rem;
+			background:url(../images/back.jpg) no-repeat center/cover;
+			position: absolute;left:0.19rem;top:0.26rem;
+}
+header a:nth-of-type(2){display:block;
+			width:1.09rem;
+			height:0.53rem;
+			background:linear-gradient(#f65984,#d91351);
+			position: absolute;left:5.12rem;top:0.15rem;
+			font-size:0.25rem;
+			color:#fff;
+			text-align: center;
+			line-height:0.53rem;
+			border-radius: 0.1rem;
+			border-top:1px solid #ad2950;
+			border-bottom:1px solid #ad2950;
+}
+.spxq{height:0.86rem;
+		background:#333333;
+		border-top:1px solid #636363;
+		border-bottom:1px solid #282828;
+		display:flex;
+		justify-content: space-around;
+}
+.spxq p{line-height:0.86rem;
+		font-size:0.31rem;
+		color:#fff;
+}
+.sp{width:4.37rem;
+	height:3.66rem;
+	background:#fff url(../images/sp8.jpg) no-repeat center/4.37rem 3.66rem;
+	border:1px solid #acacac;
+	margin:0 auto;
+	margin-bottom:0.49rem;
+	margin-top:0.29rem;
+}
+.js{margin-left:0.44rem;
+	margin-bottom:0.32rem;
+	width:5.05rem;
+	height:0.82rem;
+}
+.js-left{width:0.82rem;
+			height:0.82rem;
+			background:url(../images/jian.jpg) no-repeat center/0.82rem 0.82rem;
+}
+.js-right{width:4.23rem;
+			height:0.82rem;
+			background:linear-gradient(#f8618a,#d6104e);
+			font-size:0.36rem;
+			color:#fff;
+			line-height:0.82rem;
+}
+.jiage{font-size:0.24rem;
+		width:4.8rem;
+		height:0.28rem;
+		margin:0 auto;
+}
+.jiage span:nth-of-type(1){text-decoration: line-through;}
+.jiage span:nth-of-type(2){float:right;}
+
+footer{height:0.98rem;
+		width:100%;
+		background:#484850;
+		position: fixed;bottom:0;
+		display:flex;
+		border-top:1px solid #28282a;
+}
+footer a{display:block;
+		width:33.3%;
+		height:0.93rem;
+		font-size:0.35rem;
+		color:#fff;
+		line-height:0.98rem;
+		text-align: center;
+		border-right:1px solid #282828;
+}
+footer a:hover{border-top:5px solid #e43669;}
